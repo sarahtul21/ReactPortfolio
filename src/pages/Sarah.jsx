@@ -126,7 +126,7 @@ function Sarah() {
                   </div>
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button color="gray" onClick={() => setOpenModalTablet(false)}>
+                  <Button color="gray m-auto" onClick={() => setOpenModalTablet(false)}>
                     Close
                   </Button>
                 </Modal.Footer>
