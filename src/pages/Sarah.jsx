@@ -119,7 +119,7 @@ function Sarah() {
                 <Modal.Header>A real estate website</Modal.Header>
                 <Modal.Body>
                   <div className="space-y-6">
-                    <iframe className='m-auto' width="560" height="315" src="https://www.youtube.com/embed/J7LlI1lrB1I?si=f0n0O5FzJaEve3Hz" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>                        
+                    <iframe className='m-auto w-[90%]'  src="https://www.youtube.com/embed/J7LlI1lrB1I?si=f0n0O5FzJaEve3Hz" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>                        
                     <p>
                     Designed a scroll section with a fixed on-scroll video player and a movable text content part
                   </p>
