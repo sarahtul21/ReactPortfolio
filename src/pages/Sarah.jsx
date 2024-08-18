@@ -120,13 +120,13 @@ function Sarah() {
                 <Modal.Body>
                   <div className="space-y-6">
                     <iframe className='m-auto w-[90%]'  src="https://www.youtube.com/embed/J7LlI1lrB1I?si=f0n0O5FzJaEve3Hz" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>                        
-                    <p>
+                    <p className="px-2 text-center">
                     Designed a scroll section with a fixed on-scroll video player and a movable text content part
                   </p>
                   </div>
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button color="gray m-auto" onClick={() => setOpenModalTablet(false)}>
+                  <Button color="gray m-auto mb-2" onClick={() => setOpenModalTablet(false)}>
                     Close
                   </Button>
                 </Modal.Footer>
@@ -145,14 +145,14 @@ function Sarah() {
                 <Modal.Header>Real Estate website</Modal.Header>
                 <Modal.Body>
                   <div className="space-y-6">
-                    <iframe className='m-auto' width="560" height="315" src="https://www.youtube.com/embed/fln1qYo6nX0?si=SX3d7cHy5w1dxi3R" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
-                    <p>
+                    <iframe className='m-auto max-w-[90%]' width="560" height="315" src="https://www.youtube.com/embed/fln1qYo6nX0?si=SX3d7cHy5w1dxi3R" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                    <p className="px-2 text-center">
                       Looks like 3D,using animation frame & 119 images
                     </p>
                   </div>
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button color="gray" onClick={() => setOpenModalFrames(false)}>
+                  <Button color="gray m-auto mb-2" onClick={() => setOpenModalFrames(false)}>
                     Close
                   </Button>
                 </Modal.Footer>
@@ -171,8 +171,8 @@ function Sarah() {
                 <Modal.Header>website similar to 'Monday’</Modal.Header>
                 <Modal.Body>
                   <div className="space-y-6">
-                    <iframe className='m-auto' width="560" height="315" src="https://www.youtube.com/embed/2pA2krOU1RE?si=h4GNNJhrFnAi7clP" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
-                    <p>
+                    <iframe className='m-auto max-w-[90%]' width="560" height="315" src="https://www.youtube.com/embed/2pA2krOU1RE?si=h4GNNJhrFnAi7clP" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                    <p className="px-2 text-center">
                       Designed a table with drag and
                       drop features, as well as the ability to edit, delete, and add
                       rows, columns & table. Each cell has its own unique style for
@@ -181,7 +181,7 @@ function Sarah() {
                   </div>
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button color="gray" onClick={() => setOpenModalMonday(false)}>
+                  <Button color="gray m-auto mb-2" onClick={() => setOpenModalMonday(false)}>
                     Close
                   </Button>
                 </Modal.Footer>
@@ -201,8 +201,8 @@ function Sarah() {
                 <Modal.Header> A makeup tryon dashboard</Modal.Header>
                 <Modal.Body>
                   <div className="space-y-6">
-                    <iframe className='m-auto' width="560" height="315" src="https://www.youtube.com/embed/uzkxGihgsxs?si=ipM81FV_xjp8dpck" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
-                    <p>
+                    <iframe className='m-auto max-w-[90%]' width="560" height="315" src="https://www.youtube.com/embed/uzkxGihgsxs?si=ipM81FV_xjp8dpck" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                    <p className="px-2 text-center">
                       Designed a Form for adding and
                       editing the properties of items. Each field has its own unique
                       design with a distinctive way of displaying content, including
@@ -211,7 +211,7 @@ function Sarah() {
                   </div>
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button color="gray" onClick={() => setOpenModalTryon(false)}>
+                  <Button color="gray m-auto mb-2" onClick={() => setOpenModalTryon(false)}>
                     Close
                   </Button>
                 </Modal.Footer>
